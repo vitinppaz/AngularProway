@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DetalhesProdutoComponent } from './detalhes-produto/detalhes-produto.component';
 import { ProdutosComponent } from './produtos.component';
@@ -13,3 +13,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class ProdutosRoutingModule { }
+ 
